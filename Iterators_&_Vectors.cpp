@@ -22,7 +22,7 @@ int main() {
     
     //Vector is dynamic array it doubles it's capacity whenever required
     for(int i=0; i<5; i++){
-        v.push_back(i+1);
+        v.push_back(i+1);  //don't use v[i] = i+1;
         cout << i << " Size " << v.size() << " Capacity " << v.capacity() << endl;
     }
 
